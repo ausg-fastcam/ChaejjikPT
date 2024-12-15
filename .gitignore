@@ -1,0 +1,44 @@
+# Python 기본 파일 및 폴더
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Slack 토큰 및 환경 변수 파일
+.env
+*.env.*
+
+# Editor 관련 파일
+.idea/
+.vscode/
+*.swp
+
+# OS 별 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+*.out
+*.err
+
+# 테스트 커버리지 및 보고서
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker 관련 파일
+*.dockerfile
+docker-compose.override.yml
+
+# venv
+venv
